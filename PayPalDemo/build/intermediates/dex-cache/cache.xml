@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Sheryl\Downloads\PayPalDemo\PayPalDemo\libs\PayPalAndroidSDK-2.11.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9735854afd5519b0f6a47c542ac851ba85f2a10e">
+        <dex dex="C:\Users\Sheryl\Downloads\PayPalDemo\PayPalDemo\build\intermediates\pre-dexed\debug\PayPalAndroidSDK-2.11.0-94d3ebe75b17759dc2fb5c2bed6c5e7969e41da8.jar" />
+    </item>
+
+</items>

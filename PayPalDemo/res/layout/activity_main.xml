@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/grey"
+    tools:context=".SampleActivity" >
+
+   <LinearLayout
+       android:id="@+id/wrapper"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical" >
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/bookImage"
+           android:src="@drawable/android"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingTop="10dp"
+           android:id="@+id/bookNameTitle"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="Book Title:"
+           android:textStyle="bold"
+           android:textColor="#000000"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/bookName"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:layout_below="@id/bookNameTitle"
+           android:text="Android Game Programming"
+           android:textColor="#000000"/>
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingTop="10dp"
+           android:id="@+id/bookPriceTitle"
+           android:textStyle="bold"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:layout_below="@id/bookImage"
+           android:text="Book Price: "
+           android:textColor="#000000"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/bookName2"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:layout_below="@id/bookPriceTitle"
+           android:text="$40"
+           android:textColor="#000000"/>
+
+
+   </LinearLayout>
+
+    <Button
+        android:id="@+id/buyItBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onBuyPressed"
+        android:text="Buy Items in Cart"
+        android:background="@color/navyblue"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

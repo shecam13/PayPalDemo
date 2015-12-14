@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Sheryl/Downloads/PayPalDemo/PayPalDemo/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="grey">#fff5f9f7</color>
+    <color name="navyblue">#ff1189d5</color>
+    <!-- From: file:/C:/Users/Sheryl/Downloads/PayPalDemo/PayPalDemo/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">10dip</dimen>
+    <dimen name="activity_vertical_margin">10dip</dimen>
+    <!-- From: file:/C:/Users/Sheryl/Downloads/PayPalDemo/PayPalDemo/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Demo: PayPal SDK</string>
+</resources>
